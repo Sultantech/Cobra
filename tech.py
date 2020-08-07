@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To lovehacker
+#The Credit For This Code Goes To Sultantech
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
@@ -48,7 +48,7 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.001)
 
-#Dev:love_hacker
+#Dev:Sultan_Tech
 ##### LOGO #####
 logo = """
 \033[1;96m██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗
@@ -80,7 +80,7 @@ _______________§§§$$___$_$$§§§§
 ________________§$$____$_$§§§§
 _________________$____$_$$§§
 ________________$$___$__$$
-_______________$$______$$      BlackMafia
+_______________$$______$$      Meer Sultan
 _______________$______$$_$
 ______________$$_____$$_$$$______$$$$$$$$$$$
 ______________$______$___$$$$$$$$___________$
@@ -179,8 +179,8 @@ jalan("\033[1;96m_________________§$§#$$$$##")
  
 print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackMafia\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
-CorrectUsername = "Cobra"
-CorrectPassword = "lovehacker"
+CorrectUsername = "Meer"
+CorrectPassword = "Sultan"
 
 loop = 'true'
 while (loop == 'true'):
@@ -188,15 +188,15 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m🗝 \x1b[1;95mTool Password \x1b[1;91m»» \x1b[1;91m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
+            print "Logged in successfully as " + username #Dev:Sultan_tech
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+            os.system('xdg-open https://m.youtube.com/channel/UCVCWk2j_NmerbPnuCOmSXMg')
     else:
         print "\033[1;91mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+        os.system('xdg-open https://m.youtube.com/channel/UCVCWk2j_NmerbPnuCOmSXMg')
 
 def login():
 	os.system('clear')
@@ -292,7 +292,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;91mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:love_hacker
+	os.system("clear") #Dev:Sultan_tech
 	print logo
 	print "  \033[1;95m«----•◈••◈•----\033[1;91mLogged in User Info\033[1;95m----•◈••◈•-----»"
 	print "	   \033[1;91m Name\033[1;91m:\033[1;91m"+nama+"\033[1;95m               "
@@ -626,10 +626,10 @@ _______¶¶¶_________¶______¶_________¶¶¶______
          Checkpoint ID Open After 7 Days
 
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ....lovehacker  BlackMafia....... \033[1;95m :
+: \033[1;91m ....Sultantech  BlackMafia....... \033[1;95m :
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 WhatsApp Num
-              \033[1;91m +923094161457"""
+              \033[1;91m +923113628442"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 	menu()
